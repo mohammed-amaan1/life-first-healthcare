@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life First Healthcare - Premium Nursing at Home</title>
+    <!-- Bootstrap CSS -->
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+</head>
+<body>
+    <!-- header section  -->
+    <header class="header">
+        <div class="container-fluid">
+            <!-- navbar  -->
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <!-- toggle button  -->
+                <a class="navbar-brand" href="./index.html">
+                    <!-- Logo at top left -->
+                    <img
+                        src="logo.png"
+                        alt="Life First Healthcare Logo"
+                        class="img-fluid nav-logo"
+                        onerror="this.src='https://placehold.co/200x80/ffffff/004a8b?text=Life+First+Logo'"
+                    />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#main-nav"
+                    aria-controls="main-nav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- dropdown -->
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <ul class="navbar-nav mx-auto" id="mainNav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="servicesDropdown"
+                                role="button"
+                                data-toggle="dropdown"
+                                aria-haspopup="true"
+                                aria-expanded="false"
+                            >
+                                Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <a class="dropdown-item" href="#">Post-hospitalization Care</a>
+                                        <a class="dropdown-item" href="#">Chronic Disease Management</a>
+                                        <a class="dropdown-item" href="#">Elderly Care</a>
+                                    </div>
+                                    <div class="col-6">
+                                        <a class="dropdown-item" href="#">Wound Care</a>
+                                        <a class="dropdown-item" href="#">IV Therapy</a>
+                                        <a class="dropdown-item" href="#">Baby Care</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#process">Care Plan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact Us</a>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav" id="bookNav">
+                        <li class="nav-item">
+                            <a href="tel:+919870086074" class="nav-link book-button">
+                                +91 98700 86074
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- hero section  -->
+    <section id="hero" style="background-image: url('hero.png')">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Expert Nursing Care Across Mumbai</h1>
+            <p>
+                We provide high-quality nursing services throughout Mumbai, delivering compassionate care to patients in the comfort of their own homes.
+            </p>
+            <div class="buttons">
+                <a href="#benefits" class="btn-primary-custom mt-3">Explore Services</a>
+                <a href="tel:+919870086074" class="btn-primary-custom mt-3 ml-2">Call: +91 98700 86074</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction: Who We Are -->
+    <section id="service-overview" class="section-padding">
+        <div class="container">
+            <!-- Title & Paragraph -->
+            <h2 class="section-title">
+                Premium Care in the Comfort of Your Home
+            </h2>
+            <p class="section-paragraph">
+                At <strong>Life First Healthcare</strong>, we believe premium healthcare should be stress-free, discreet, and of the highest standard. Our elite team delivers comprehensive, tailored services directly to your home, prioritizing your comfort, convenience, and absolute well-being.
+            </p>
+
+            <!-- Layout: Image + Content -->
+            <div class="service-container">
+                <!-- Left Side: Image -->
+                <div class="service-image">
+                    <img src="elder_care.png" alt="Elder Care Service" class="img-fluid" />
+                </div>
+
+                <!-- Right Side: Benefits Cards with Icons -->
+                <div class="service-benefits">
+                    <div class="benefit-card">
+                        <span class="benefit-icon"><i class="fas fa-user-shield"></i></span>
+                        <h3>Elite & Compassionate Caregivers</h3>
+                        <p>Our strictly vetted, highly trained professionals provide the utmost compassionate care, ensuring safety and trust.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="benefit-icon"><i class="fas fa-clipboard-list"></i></span>
+                        <h3>Bespoke Care Plans</h3>
+                        <p>We curate tailored, comprehensive care plans addressing all specific medical requirements and daily lifestyle needs.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="benefit-icon"><i class="fas fa-bed-pulse"></i></span>
+                        <h3>Post-Hospitalization Excellence</h3>
+                        <p>Recover with confidence. We provide the medical support and luxurious comfort for a seamless recovery at home.</p>
+                    </div>
+                    <div class="benefit-card">
+                        <span class="benefit-icon"><i class="fas fa-clock-rotate-left"></i></span>
+                        <h3>Flexible & Exclusive Care</h3>
+                        <p>Get precisely the right care on your schedule. Choose from hourly, daily, or premium live-in nursing assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services -->
+    <section id="benefits" class="section-padding" style="background-color: #f9fbfe;">
+        <div class="container">
+            <h2 class="section-title">
+                Specialized Services for Discerning Clients
+            </h2>
+            <p class="section-paragraph">
+                Life First Healthcare delivers a full spectrum of professional home healthcare services. From short-term assistance to long-term care, our expert team provides unparalleled support to ensure an exceptional quality of life.
+            </p>
+
+            <div class="service-grid">
+                <!-- Modified to use 6 unique stock images -->
+                <div class="service-item" style="background-image: url('hero.png')">
+                    <div class="overlay">
+                        <h3>Post-hospitalization Care</h3>
+                        <p>Experience a seamless transition with clinical excellence and monitoring.</p>
+                        <a href="https://wa.me/919870086074?text=Hello%2C%20I%20want%20to%20know%20more%20about%20Post-hospitalization%20Care" target="_blank">
+                            <button class="en-button">Enquire now</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-item" style="background-image: url('chronic_disease.png');">
+                    <div class="overlay">
+                        <h3>Chronic Disease Management</h3>
+                        <p>Continuous management for conditions to enhance overall quality of life.</p>
+                        <a href="https://wa.me/919870086074?text=Hello%2C%20I%20want%20to%20know%20more%20about%20Chronic%20Disease%20Management" target="_blank">
+                            <button class="en-button">Enquire now</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-item" style="background-image: url('elder_care.png');">
+                    <div class="overlay">
+                        <h3>Elderly Care</h3>
+                        <p>Specialized care for Dementia, Parkinson's, and Alzheimer's.</p>
+                        <a href="https://wa.me/919870086074?text=Hello%2C%20I%20want%20to%20know%20more%20about%20Elderly%20Care" target="_blank">
+                            <button class="en-button">Enquire now</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-item" style="background-image: url('wound_care.png')">
+                    <div class="overlay">
+                        <h3>Wound Care</h3>
+                        <p>Advanced protocols for optimal healing in a sterile environment.</p>
+                        <a href="https://wa.me/919870086074?text=Hello%2C%20I%20want%20to%20know%20more%20about%20Wound%20Care" target="_blank">
+                            <button class="en-button">Enquire now</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-item" style="background-image: url('iv_therapy.png');">
+                    <div class="overlay">
+                        <h3>IV Therapy & Vital Signs</h3>
+                        <p>Clinical-grade administration and continuous health tracking.</p>
+                        <a href="https://wa.me/919870086074?text=Hello%2C%20I%20want%20to%20know%20more%20about%20IV%20Therapy" target="_blank">
+                            <button class="en-button">Enquire now</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-item" style="background-image: url('baby_care.png')">
+                    <div class="overlay">
+                        <h3>Baby Care</h3>
+                        <p>Premium maternity and newborn care for absolute peace of mind.</p>
+                        <a href="https://wa.me/919870086074?text=Hello%2C%20I%20want%20to%20know%20more%20about%20Baby%20Care" target="_blank">
+                            <button class="en-button">Enquire now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works / Care Plan -->
+    <section id="process" class="section-padding">
+        <div class="container text-center">
+            <h2 class="section-title">The Life First Standard</h2>
+            <p class="section-paragraph mx-auto">
+                Why distinguished families choose us for their healthcare needs. We ensure absolute peace of mind through a meticulously curated care process.
+            </p>
+            <div class="row mt-5">
+                <div class="col-md-3 mb-4">
+                    <div class="process-card">
+                        <h3>01</h3>
+                        <h4>Contact Us</h4>
+                        <p>Connect with our Care Navigator directly via Call or WhatsApp.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="process-card">
+                        <h3>02</h3>
+                        <h4>Select Service</h4>
+                        <p>Consult with us to choose your bespoke healthcare plan.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="process-card">
+                        <h3>03</h3>
+                        <h4>Schedule</h4>
+                        <p>Pick a date and time tailored to your exclusive lifestyle.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-4">
+                    <div class="process-card">
+                        <h3>04</h3>
+                        <h4>Receive Care</h4>
+                        <p>Our elite professionals arrive to deliver world-class care.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <!-- Brand / Logo -->
+                <div class="col-md-4 mb-4">
+                    <img src="logo.png" alt="Logo" class="footer-logo mb-3" onerror="this.src='https://placehold.co/200x80/ffffff/004a8b?text=Life+First+Logo'">
+                    <p>Care. Compassion. Life First.</p>
+                    <p>Our trusted professionals deliver elite, personalized home care at your doorstep, making world-class healthcare accessible and comfortable.</p>
+                </div>
+                <!-- Contact Us -->
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-4">Contact Us</h4>
+                    <ul class="list-unstyled contact-info">
+                        <li><i class="fas fa-user-nurse"></i> <strong>Care Navigator:</strong> Hare Krishna</li>
+                        <li><i class="fas fa-phone"></i> <a href="tel:+919870086074">+91 98700 86074</a></li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/919870086074" target="_blank">Chat with us on WhatsApp</a></li>
+                    </ul>
+                </div>
+                <!-- Areas Covered -->
+                <div class="col-md-4 mb-4">
+                    <h4 class="mb-4">Areas Covered</h4>
+                    <ul class="list-unstyled areas-list">
+                        <li>Mumbai City</li>
+                        <li>Mumbai Suburbs</li>
+                        <li>Navi Mumbai</li>
+                        <li>Thane</li>
+                        <li>Surrounding Areas</li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="bg-light" />
+            <div class="row">
+                <div class="col-md-6 text-md-left text-center">
+                    <p class="mb-0">&copy; 2026 Life First Healthcare Services. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-right text-center">
+                    <a href="#" class="text-dark mr-3">Privacy Policy</a>
+                    <a href="#" class="text-dark">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
